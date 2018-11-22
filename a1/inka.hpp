@@ -1,12 +1,16 @@
 #ifndef INKA_H
 #define INKA_H
+#include <string>
+
+class LesClients;
+class Client;
 
 class Inka
 {
     // Liste des clients
     LesClients clients;
     // Client authentifié
-    Client clientAuthentifie;
+    Client* clientAuthentifie;
     
 public:
     /**
@@ -20,20 +24,20 @@ public:
      * @param pseudo Pseudo du client
      * @param mdp Mot de passe du client
      */
-    void ajouterClient(String pseudo, String mdp);
+    void ajouterClient(std::string pseudo, std::string mdp);
     
     /**
      * @brief authentifier identifie un client dans la liste des clients
      * @param pseudo Pseudo du client
      * @param mdp Mot de passe du client
      */
-    void authentifier(String pseudo, String mdp);
+    void authentifier(std::string pseudo, std::string mdp);
     
     /**
      * @brief creerPaquet
      * @param nomPaquet
      */
-    void creerPaquet(String nomPaquet);
+    void creerPaquet(std::string nomPaquet);
     
 };
 

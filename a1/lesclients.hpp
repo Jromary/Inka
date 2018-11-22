@@ -4,6 +4,8 @@
 #include <string>
 #include <iostream>
 #include <iomanip>
+#include <list>
+
 
 class Client;
 
@@ -12,7 +14,7 @@ private:
     /**
      * @brief lesClients, stock les utilisateurs
      */
-    std::List<Client*> lesClients;
+    std::list<Client*> lesClients;
 
 public:
     /**

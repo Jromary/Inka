@@ -1,5 +1,7 @@
 #include "inka.hpp"
 
+
+
 Inka::Inka()
 {
 public:
@@ -16,7 +18,7 @@ public:
      * @param pseudo Pseudo du client
      * @param mdp Mot de passe du client
      */
-    void ajouterClient(String pseudo, String mdp){
+    void ajouterClient(std::string pseudo, std::string mdp){
         Client client = new client(pseudo,mdp);
         clients.add(client);
     }
@@ -26,7 +28,7 @@ public:
      * @param pseudo Pseudo du client
      * @param mdp Mot de passe du client
      */
-    void authentifier(String pseudo, String mdp){
+    void authentifier(std::string pseudo, std::string mdp){
         Client client = clients.getClient(pseudo,mdp);
         this->clientAuthentifie = client;
     }
@@ -35,7 +37,7 @@ public:
      * @brief creerPaquet
      * @param nomPaquet
      */
-    void creerPaquet(String nomPaquet){
+    void creerPaquet(std::string nomPaquet){
         this->clientAuthentifie.creerPaquet(nomPaquet);
     }
     
