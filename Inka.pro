@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += a1/main.cpp\
         a1/mainwindow.cpp \
-    a1/lesclients.cpp
+    a1/lesclients.cpp \
+    a1/inka.cpp
 
 HEADERS  += a1/mainwindow.h \
-    a1/lesclients.hpp
+    a1/lesclients.hpp \
+    a1/inka.hpp
 
 FORMS    += a1/mainwindow.ui

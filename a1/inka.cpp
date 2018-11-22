@@ -1,4 +1,4 @@
-#include "inka.h"
+#include "inka.hpp"
 
 Inka::Inka()
 {
