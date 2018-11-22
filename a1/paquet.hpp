@@ -23,7 +23,7 @@ class Paquet {
         /// @param nom le nom du paquet
         ///
         /// @see nom
-        Paquet(){}
+        Paquet();
 };
 
 #endif // PAQUET_HPP

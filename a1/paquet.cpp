@@ -1,5 +1,5 @@
 #include "paquet.hpp"
 
-paquet::paquet()
+Paquet::paquet()
 {
 }
