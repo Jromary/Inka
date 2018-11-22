@@ -17,12 +17,14 @@ SOURCES += a1/main.cpp\
     a1/lesclients.cpp \
     a1/inka.cpp \
     a1/carte.cpp \
-    a1/paquet.cpp
+    a1/paquet.cpp \
+    a1/client.cpp
 
 HEADERS  += a1/mainwindow.h \
     a1/lesclients.hpp \
     a1/inka.hpp \
     a1/carte.hpp \
-    a1/paquet.hpp
+    a1/paquet.hpp \
+    a1/client.hpp
 
 FORMS    += a1/mainwindow.ui
