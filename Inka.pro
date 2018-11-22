@@ -12,9 +12,11 @@ TARGET = Inka
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += a1/main.cpp\
+        a1/mainwindow.cpp \
+    a1/lesclients.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += a1/mainwindow.h \
+    a1/lesclients.hpp
 
-FORMS    += mainwindow.ui
+FORMS    += a1/mainwindow.ui
